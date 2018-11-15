@@ -21,7 +21,9 @@ public class TeamsList {
         Elements teamElements = doc.select("div:containsOwn(" + teamClassQuery + ")").first().siblingElements().get(siblingNum).children();
 
         List<Team> teams = new ArrayList<>();
-        teamElements.stream().limit(2).forEach(teamEl -> {
+        teamElements.stream()
+//                .limit(3)
+                .forEach(teamEl -> {
             Team team = new Team();
             ExtractTeamData extractTeamData = new ExtractTeamData(team);
             extractTeamData.teamInit(teamEl, teamClassQuery, saveImage);
