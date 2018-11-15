@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="app.SaveToMongoTest" time="61.254" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\java_workspace\webscraper"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\java_workspace\webscraper"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ogreen\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Oracle\instantclient;C:\app\ogreen\product\11.2.0\client_2\bin;C:\app\ogreen\product\11.2.0\client_1;C:\Program Files\Teradata\Client\15.10\bin;C:\Program Files (x86)\Teradata\Client\15.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\CineForm\Tools;C:\Program Files (x86)\GoPro\Tools;C:\Program Files\Maven\bin;C:\Program Files\1E\NomadBranch\;C:\Program Files\Geth;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\ogreen\.windows-build-tools\python27\;C:\Users\ogreen\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\ogreen\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\ogreen\AppData\Roaming\npm\node_modules\.bin;C:\Users\ogreen\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Oracle\instantclient;C:\app\ogreen\product\11.2.0\client_2\bin;C:\app\ogreen\product\11.2.0\client_1;C:\Program Files\Teradata\Client\15.10\bin;C:\Program Files (x86)\Teradata\Client\15.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\CineForm\Tools;C:\Program Files (x86)\GoPro\Tools;C:\Program Files\Maven\bin;C:\Program Files\1E\NomadBranch;C:\Program Files\Geth;C:\Program Files\Microsoft VS Code\bin;C:\Users\ogreen\AppData\Local\Microsoft\WindowsApps;C:\Users\ogreen\AppData\Local\GitHubDesktop\bin;C:\Users\ogreen\AppData\Local\Polycom\RealPresence Desktop;C:\Users\ogreen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\ogreen\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\Maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ogreen"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ogreen"/>
+    <property name="java.class.path" value="C:\Program Files\Maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="app.SaveToMongoTest" name="saveImage" time="61.254">
+    <error message="Timed out after 30000 ms while waiting for a server that matches WritableServerSelector. Client view of cluster state is {type=UNKNOWN, servers=[{address=ds245715.mlab.com:45715, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message}, caused by {java.net.SocketTimeoutException: Read timed out}}]" type="com.mongodb.MongoTimeoutException">com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches WritableServerSelector. Client view of cluster state is {type=UNKNOWN, servers=[{address=ds245715.mlab.com:45715, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message}, caused by {java.net.SocketTimeoutException: Read timed out}}]
+	at com.mongodb.connection.BaseCluster.createTimeoutException(BaseCluster.java:377)
+	at com.mongodb.connection.BaseCluster.selectServer(BaseCluster.java:104)
+	at com.mongodb.binding.ClusterBinding$ClusterBindingConnectionSource.&lt;init&gt;(ClusterBinding.java:75)
+	at com.mongodb.binding.ClusterBinding$ClusterBindingConnectionSource.&lt;init&gt;(ClusterBinding.java:71)
+	at com.mongodb.binding.ClusterBinding.getWriteConnectionSource(ClusterBinding.java:68)
+	at com.mongodb.operation.OperationHelper.withConnection(OperationHelper.java:415)
+	at com.mongodb.operation.BaseWriteOperation.execute(BaseWriteOperation.java:133)
+	at com.mongodb.operation.BaseWriteOperation.execute(BaseWriteOperation.java:60)
+	at com.mongodb.Mongo.execute(Mongo.java:845)
+	at com.mongodb.Mongo$2.execute(Mongo.java:828)
+	at com.mongodb.DBCollection.executeWriteOperation(DBCollection.java:342)
+	at com.mongodb.DBCollection.insert(DBCollection.java:337)
+	at com.mongodb.DBCollection.insert(DBCollection.java:328)
+	at com.mongodb.DBCollection.insert(DBCollection.java:298)
+	at com.mongodb.DBCollection.insert(DBCollection.java:264)
+	at com.mongodb.DBCollection.insert(DBCollection.java:186)
+	at com.mongodb.DBCollection.save(DBCollection.java:407)
+	at com.mongodb.DBCollection.save(DBCollection.java:382)
+	at com.mongodb.gridfs.GridFSInputFile.dumpBuffer(GridFSInputFile.java:276)
+	at com.mongodb.gridfs.GridFSInputFile.saveChunks(GridFSInputFile.java:229)
+	at com.mongodb.gridfs.GridFSInputFile.save(GridFSInputFile.java:178)
+	at com.mongodb.gridfs.GridFSInputFile.save(GridFSInputFile.java:160)
+	at app.SaveToMongo.saveImageIntoMongoDB(SaveToMongo.java:33)
+	at app.SaveToMongoTest.saveImage(SaveToMongoTest.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-err>Nov 10, 2018 2:31:20 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds245715.mlab.com:45715], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&apos;30000 ms&apos;, maxWaitQueueSize=500}
+Nov 10, 2018 2:31:20 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=ds245715.mlab.com:45715, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+Nov 10, 2018 2:31:42 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Exception in monitor thread while connecting to server ds245715.mlab.com:45715
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:477)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:228)
+	at com.mongodb.connection.CommandHelper.receiveReply(CommandHelper.java:134)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:121)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:86)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:45)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:85)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:494)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:224)
+	... 8 more
+
+Nov 10, 2018 2:31:50 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: No server chosen by WritableServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=ds245715.mlab.com:45715, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message}, caused by {java.net.SocketTimeoutException: Read timed out}}]}. Waiting for 30000 ms before timing out
+</system-err>
+  </testcase>
+</testsuite>

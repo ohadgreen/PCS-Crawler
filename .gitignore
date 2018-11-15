@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/inspectionProfiles/
+src/main/resources/
+src/test/
+target/classes/app/LibriProduct$LibriProductBuilder.class
+target/classes/app/LibriProduct.class
+target/generated-sources/
